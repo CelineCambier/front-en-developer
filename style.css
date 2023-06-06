@@ -94,7 +94,7 @@ p {
     height: auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     h1 {
         font-size: 40px;
     }
@@ -119,7 +119,7 @@ p {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
     h1 {
         font-size: 65px;
     }
