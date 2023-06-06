@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 100px auto;
+    margin: 100px 0;
 }
 
 h1,
@@ -53,6 +53,10 @@ p {
     color: white;
 }
 
+.primary-link:hover {
+    color: white;
+}
+
 .secondary-link {
     border-radius: 4px;
     padding: 20px 15px;
@@ -97,6 +101,7 @@ p {
 @media (max-width: 575px) {
     h1 {
         font-size: 40px;
+        line-height: 1.5;
     }
 
     h2 {
